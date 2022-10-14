@@ -26,6 +26,9 @@
       border-radius: 5px;
       margin: 5px 0 5px 5px;
   }
+  p:hover {
+    cursor: pointer;
+  }
   a {
       position: absolute;
       width: 15px;
