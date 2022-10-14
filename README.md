@@ -1,2 +1,2 @@
 # piano
-stefancaras.github.com/piano
+stefancaras.github.io/piano
