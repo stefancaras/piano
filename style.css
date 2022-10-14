@@ -3,49 +3,49 @@
   }
   section {
       position: relative;
-      width: 400px;
-      height: 300px;
+      width: 100vw;
+      height: 100vh;
       background: #998235;
   }
   div {
       position: relative;
       display: flex;
       align-items: flex-end;
-      width: 180px;
-      height: 100px;
+      width: 90vw;
+      height: 50vw;
       background: #191919;
-      border-radius: 10px;
+      border-radius: 5vw;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
   p {
-      width: 20px;
-      height: 70px;
+      width: 10vw;
+      height: 35vw;
       background: #FFFFFF;
-      border-radius: 5px;
-      margin: 5px 0 5px 5px;
+      border-radius: 2.5vw;
+      margin: 2.5vw 0 2.5vw 2.5vw;
   }
   p:hover {
     cursor: pointer;
   }
   a {
       position: absolute;
-      width: 15px;
-      height: 40px;
+      width: 7.5vw;
+      height: 20vw;
       background: #191919;
-      top: 20px;
-      left: 20px;
+      top: 10vw;
+      left: 10vw;
   }
   a[i] {
-      left: 45px;
+      left: 22.5vw;
   }
   a[j] {
-      left: 95px;
+      left: 47.5vw;
   }
   a[k] {
-      left: 120px;
+      left: 60vw;
   }
   a[l] {
-      left: 145px;
+      left: 72.5vw;
   }
