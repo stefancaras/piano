@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+  }
+  section {
+      position: relative;
+      width: 400px;
+      height: 300px;
+      background: #998235;
+  }
+  div {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      width: 180px;
+      height: 100px;
+      background: #191919;
+      border-radius: 10px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  p {
+      width: 20px;
+      height: 70px;
+      background: #FFFFFF;
+      border-radius: 5px;
+      margin: 5px 0 5px 5px;
+  }
+  a {
+      position: absolute;
+      width: 15px;
+      height: 40px;
+      background: #191919;
+      top: 20px;
+      left: 20px;
+  }
+  a[i] {
+      left: 45px;
+  }
+  a[j] {
+      left: 95px;
+  }
+  a[k] {
+      left: 120px;
+  }
+  a[l] {
+      left: 145px;
+  }
