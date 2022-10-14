@@ -1,51 +1,82 @@
 * {
     margin: 0;
-  }
-  section {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      background: #998235;
-  }
-  div {
-      position: relative;
-      display: flex;
-      align-items: flex-end;
-      width: 90vw;
-      height: 50vw;
-      background: #191919;
-      border-radius: 5vw;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  }
-  p {
-      width: 10vw;
-      height: 35vw;
-      background: #FFFFFF;
-      border-radius: 2.5vw;
-      margin: 2.5vw 0 2.5vw 2.5vw;
-  }
-  p:hover {
-    cursor: pointer;
-  }
-  a {
-      position: absolute;
-      width: 7.5vw;
-      height: 20vw;
-      background: #191919;
-      top: 10vw;
-      left: 10vw;
-  }
-  a[i] {
-      left: 22.5vw;
-  }
-  a[j] {
-      left: 47.5vw;
-  }
-  a[k] {
-      left: 60vw;
-  }
-  a[l] {
-      left: 72.5vw;
-  }
+}
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #998235;
+}
+div {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: 90vw;
+    height: 50vw;
+    background: #191919;
+    border-radius: 5vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p {
+    width: 10vw;
+    height: 35vw;
+    background: #FFFFFF;
+    border-radius: 2.5vw;
+    margin: 2.5vw 0 2.5vw 2.5vw;
+}
+p:hover {
+cursor: pointer;
+}
+a {
+    position: absolute;
+    width: 7.5vw;
+    height: 20vw;
+    background: #191919;
+    top: 10vw;
+    left: 10vw;
+}
+a[i] {
+    left: 22.5vw;
+}
+a[j] {
+    left: 47.5vw;
+}
+a[k] {
+    left: 60vw;
+}
+a[l] {
+    left: 72.5vw;
+}
+@media screen and (orientation: landscape) {
+    div {
+        width: 90vh;
+        height: 50vh;
+        border-radius: 5vh;
+    }
+    p {
+        width: 10vh;
+        height: 35vh;
+        border-radius: 2.5vh;
+        margin: 2.5vh 0 2.5vh 2.5vh;
+    }
+    a {
+        width: 7.5vh;
+        height: 20vh;
+        top: 10vh;
+        left: 10vh;
+    }
+    a[i] {
+        left: 22.5vh;
+    }
+    a[j] {
+        left: 47.5vh;
+    }
+    a[k] {
+        left: 60vh;
+    }
+    a[l] {
+        left: 72.5vh;
+    }
+}
